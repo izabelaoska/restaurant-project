@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-title {
+  @apply text-center;
+}
+
+.menu-buttons {
+  @apply flex justify-end p-2 space-x-2 text-sm;
+}
+.hero-bg {
+  background-image: url("https://patiotime.loftocean.com/wp-content/uploads/2022/03/davide-cantelli-jpkfc5_d-DI-unsplash-780x520.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
+}
