@@ -10,7 +10,7 @@ export const Hero = () => {
       <div className="z-10 ">
         <Details />
         <Navbar />
-        <div className="pt-44">
+        <div className="container mx-auto pt-44">
           <MainTitle />
         </div>
       </div>

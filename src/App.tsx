@@ -1,13 +1,24 @@
 import React, { useState } from "react"
-import { Hero } from "./components/layout"
+
+import {
+  BrowserRouter,
+  Route,
+  Routes,
+} from "react-router-dom"
+
+import { LoginPage, MainPage } from "./pages"
 
 import "./index.css"
 
 function App() {
   return (
     <div className="App">
-      <Hero />
-      <div className="h-64">blablabla</div>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<MainPage />} />
+          <Route path="/login" element={<LoginPage />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }
