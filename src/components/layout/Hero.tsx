@@ -7,8 +7,10 @@ export const Hero = () => {
   return (
     <div className="relative flex flex-col h-screen ml-auto mr-auto text-white bg-gray-900 ">
       <div className="absolute top-0 left-0 z-0 w-full h-screen border hero-bg " />
-      <div className="container z-10 h-full mx-auto hero-container my-14 ">
-        <Details />
+      <div className="container z-10 h-full mx-auto hero-container">
+        <div className="hidden mt-10 md:block">
+          <Details />
+        </div>
         <Navbar />
         <div
           className="container flex items-center justify-center mx-auto"

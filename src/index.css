@@ -11,7 +11,7 @@ body {
 }
 
 .menu-buttons {
-  @apply flex flex-col text-2xl md:flex-row lg:space-x-4 lg:justify-end lg:w-full lg:text-2xl;
+  @apply hidden md:flex flex-col text-2xl md:flex-row lg:space-x-4 lg:justify-end lg:w-full lg:text-2xl;
 }
 .hero-bg {
   background-image: url("https://patiotime.loftocean.com/wp-content/uploads/2022/03/davide-cantelli-jpkfc5_d-DI-unsplash-780x520.jpg");

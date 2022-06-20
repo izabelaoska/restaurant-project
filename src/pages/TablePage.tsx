@@ -13,7 +13,6 @@ export const TablePage = () => {
       "https://dog.ceo/api/breeds/image/random/3"
     )
     const dogs = await response.json()
-    // setData(dogs)
     setData(dogs.message)
     console.log(dogs)
   }
