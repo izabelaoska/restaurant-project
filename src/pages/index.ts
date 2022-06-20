@@ -1,2 +1,6 @@
 export * from "./MainPage"
 export * from "./LoginPage"
+export * from "./MenusPage"
+export * from "./PrivatePage"
+export * from "./TablePage"
+export * from "./SpecialMenus"

@@ -1,5 +1,9 @@
 import React from "react"
-import { Hero, Introsection, Menus } from "../components/layout"
+import {
+  Hero,
+  Introsection,
+  Menus,
+} from "../components/layout"
 
 export const MainPage = () => {
   return (

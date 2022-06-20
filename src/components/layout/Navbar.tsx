@@ -3,16 +3,16 @@ import { Link } from "react-router-dom"
 
 export const Navbar = () => {
   return (
-    <nav>
+    <nav className="mt-10 nav-container">
       <div className="menu-buttons">
         <div>
-          <button>Menus</button>
+          <Link to="/menus">Menus</Link>
         </div>
         <div>
           <Link to="/login">Login</Link>
         </div>
         <div>
-          <button>Find a table</button>
+          <Link to="/table">Find a table</Link>
         </div>
       </div>
     </nav>

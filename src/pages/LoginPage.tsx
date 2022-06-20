@@ -1,7 +1,8 @@
 import React, { useState } from "react"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 export const LoginPage = () => {
+  const navigate = useNavigate()
   const [email, setEmail] = useState(
     "tracey.ramos@reqres.in"
   )
@@ -12,7 +13,8 @@ export const LoginPage = () => {
   ) => {
     e.preventDefault()
     const token = await login(email, password)
-    alert(token)
+    localStorage.setItem("token", token)
+    navigate("/private")
     // setEmail("")
     // setPassword("")
   }

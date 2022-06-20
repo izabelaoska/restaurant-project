@@ -2,11 +2,11 @@ import React from "react"
 
 export const Details = () => {
   return (
-    <div className="flex items-center justify-between text-xs">
-      <div className="">Restaurant address</div>
-      <div className="flex">
-        <div className="m-2">Telephone number</div>
-        <div className="m-2">Email</div>
+    <div className="flex flex-col justify-start lg:flex-row text-md items-left lg:items-center lg:justify-between lg:text-lg details-container">
+      <div>Silk St, Barbican, London EC2Y 8DS, UK</div>
+      <div className="flex flex-col items-start justify-start lg:flex-row lg:space-x-6">
+        <div>+39-055-123456</div>
+        <div>booking@patiotime.com</div>
       </div>
     </div>
   )

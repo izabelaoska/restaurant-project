@@ -6,7 +6,14 @@ import {
   Routes,
 } from "react-router-dom"
 
-import { LoginPage, MainPage } from "./pages"
+import {
+  LoginPage,
+  MainPage,
+  MenusPage,
+  PrivatePage,
+  SpecialMenus,
+  TablePage,
+} from "./pages"
 
 import "./index.css"
 
@@ -17,6 +24,16 @@ function App() {
         <Routes>
           <Route index element={<MainPage />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/menus" element={<MenusPage />} />
+          <Route
+            path="/private"
+            element={<PrivatePage />}
+          />
+          <Route path="/table" element={<TablePage />} />
+          <Route
+            path="specials"
+            element={<SpecialMenus />}
+          />
         </Routes>
       </BrowserRouter>
     </div>
