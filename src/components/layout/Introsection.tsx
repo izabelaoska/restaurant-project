@@ -26,7 +26,7 @@ export const Introsection = () => {
           }
         />
       </div>
-      <div>
+      <div className="flex">
         <img
           src={
             "https://patiotime.loftocean.com/wp-content/uploads/2022/03/img-10.jpg"

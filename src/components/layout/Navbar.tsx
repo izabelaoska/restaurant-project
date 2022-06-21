@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import { Dropdown } from "./Dropdown"
+import { Drawer } from "./Drawer"
 
 export const Navbar = () => {
   return (
@@ -17,7 +17,7 @@ export const Navbar = () => {
         </div>
       </div>
       <div className="container flex justify-end px-4 mx-auto md:hidden">
-        <Dropdown />
+        <Drawer />
       </div>
     </nav>
   )
