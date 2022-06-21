@@ -6,12 +6,12 @@ export const MainTitle = () => {
     <div className="main-title-container">
       <div className="flex items-center justify-center mb-12 lg:mb-10 lg:space-x-4 patiotime-title-container">
         <div className="border-t lg:w-20"></div>
-        <header className="text-lg lg:text-3xl title-welcome">
+        <header className="text-lg md:text-xl lg:text-3xl title-welcome">
           WELCOME TO PATIOTIME
         </header>
         <div className="border-t lg:w-20"></div>
       </div>
-      <h1 className="text-3xl title-center lg:text-9xl md:text-3xl">
+      <h1 className="text-xl title-center lg:text-6xl md:text-3xl">
         Delicious Food & Wonderful Eating Experience
       </h1>
       <h2 className="mt-10 text-sm md:text-xl lg:text-3xl harmony-title">

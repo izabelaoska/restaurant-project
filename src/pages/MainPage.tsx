@@ -3,6 +3,7 @@ import {
   Hero,
   Introsection,
   Menus,
+  Philosophy,
 } from "../components/layout"
 
 export const MainPage = () => {
@@ -18,6 +19,9 @@ export const MainPage = () => {
         <div className="container mx-auto ">
           <Menus />
         </div>
+      </section>
+      <section>
+        <Philosophy />
       </section>
     </div>
   )
