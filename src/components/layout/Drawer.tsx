@@ -36,17 +36,10 @@ import { Link } from "react-router-dom"
 
 export const Drawer = () => {
   return (
-    <div className="drawer drawer-end h-[300px]">
-      <input
-        id="my-drawer-4"
-        type="checkbox"
-        className="drawer-toggle"
-      />
-      <div className="drawer-content">
-        <label
-          htmlFor="my-drawer-4"
-          className="drawer-button btn btn-outline"
-        >
+    <label htmlFor="my-drawer">
+      <input type="checkbox" className="drawer-toggle" />
+      <div>
+        <div className="drawer-button">
           <svg
             className="text-gray-300 fill-current"
             viewBox="0 0 80 60"
@@ -57,25 +50,8 @@ export const Drawer = () => {
             <rect y="30" width="100" height="8"></rect>
             <rect y="60" width="100" height="8"></rect>
           </svg>
-        </label>
+        </div>
       </div>
-      <div className="drawer-side">
-        <label
-          htmlFor="my-drawer-4"
-          className="drawer-overlay"
-        ></label>
-        <ul className="w-56 p-4 overflow-y-auto text-gray-900 menu bg-base-100">
-          <li>
-            <Link to="/menus">Menus</Link>
-          </li>
-          <li>
-            <Link to="/login">Login</Link>
-          </li>
-          <li>
-            <Link to="/table">Find a table</Link>
-          </li>
-        </ul>
-      </div>
-    </div>
+    </label>
   )
 }

@@ -16,7 +16,7 @@ export const Navbar = () => {
           <Link to="/table">Find a table</Link>
         </div>
       </div>
-      <div className="container flex justify-end px-4 mx-auto md:hidden">
+      <div className="flex justify-end md:hidden">
         <Drawer />
       </div>
     </nav>
