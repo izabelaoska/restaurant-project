@@ -20,8 +20,8 @@ export const MenusPage = () => {
 
   return (
     <div>
-      <div>PEOPLE</div>
-      <div>
+      <div className="m-6 text-xl">FETCH EXAMPLE</div>
+      <div className="m-6">
         {people
           .map((person: any) => {
             return (
@@ -36,7 +36,12 @@ export const MenusPage = () => {
           .slice(1, 10)}
       </div>
       <h2>
-        <Link to="/">GO BACK TO MAINPAGE</Link>
+        <Link
+          to="/"
+          className="m-8 text-xl rounded-none btn-outline btn"
+        >
+          GO BACK TO MAINPAGE
+        </Link>
       </h2>
     </div>
   )
