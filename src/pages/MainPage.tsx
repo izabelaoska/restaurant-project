@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import {
+  Footer,
   Hero,
   Introsection,
   Menus,
@@ -30,6 +31,9 @@ export const MainPage = () => {
         <section>
           <Philosophy />
         </section>
+        <div>
+          <Footer />
+        </div>
       </div>
       <div className="drawer-side">
         <label

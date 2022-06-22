@@ -5,7 +5,7 @@ export const Menus = () => {
   return (
     <>
       <div className="min-h-[450px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 h-full">
-        <div className="h-[400px]">
+        <div className="h-[400px] mx-6">
           <p className="mb-4 text-center text-md text-[#DD5903]">
             FRESH TASTE BUDS
           </p>
@@ -31,7 +31,7 @@ export const Menus = () => {
             Porcini purée, parmesan, basil.
           </p>
         </div>
-        <div className="h-[400px] ">
+        <div className="h-[400px] mx-6">
           <p className="mb-4 text-center text-md text-[#DD5903]">
             TOP RATED DISHES
           </p>
@@ -56,7 +56,7 @@ export const Menus = () => {
             lemon.
           </p>
         </div>
-        <div className="h-[400px ">
+        <div className="h-[400px mx-6">
           <p className="mb-4 text-center text-md text-[#DD5903]">
             DRINK & WINES
           </p>
