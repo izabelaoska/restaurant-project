@@ -37,11 +37,11 @@ import { Link } from "react-router-dom"
 export const Drawer = () => {
   return (
     <label htmlFor="my-drawer">
-      <input type="checkbox" className="drawer-toggle" />
+      <input type="checkbox" className=" drawer-toggle" />
       <div>
         <div className="drawer-button">
           <svg
-            className="text-gray-300 fill-current"
+            className="text-gray-300 fill-current "
             viewBox="0 0 80 60"
             width="20"
             height="20"

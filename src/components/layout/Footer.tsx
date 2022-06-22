@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <footer className="container grid p-10 mx-auto my-auto text-white justify-items-start md:grid lg:grid footer bg-[#09080E]">
       <div>
-        <span className="footer-title patio-footer lg:text-3xl">
+        <span className="text-2xl footer-title patio-footer lg:text-3xl">
           Patio.Time
         </span>
         <p className="text-left">
@@ -17,26 +17,22 @@ export const Footer = () => {
         <span className="footer-title after:">
           WORKING HOURS
         </span>
-        <div className="grid lg:grid-cols-2 lg:gap-3">
-          <p className="">Monday - Friday</p>
+        <div className="grid grid-cols-2 gap-2">
+          <p>Monday - Friday</p>
           <p>09:00 - 22:00</p>
-          <p className="">Saturday</p>
+          <p>Saturday</p>
           <p>11:00 - 00:00</p>
-          <p className="">Sunday</p>
+          <p>Sunday</p>
           <p>11:00 - 23:00</p>
-          <p className="">* Happy Hour</p>
+          <p>* Happy Hour</p>
           <p>17:00 - 21:00</p>
         </div>
       </div>
       <div>
         <span className="footer-title">OUR ADDRESS</span>
-        <p className="link link-hover">
-          Silk St, Barbican, London EC2Y 8DS, UK
-        </p>
-        <p className="link link-hover">+39-055-123456</p>
-        <p className="link link-hover">
-          booking@patiotime.com
-        </p>
+        <p>Silk St, Barbican, London EC2Y 8DS, UK</p>
+        <p>+39-055-123456</p>
+        <p>booking@patiotime.com</p>
       </div>
       <div>
         <span className="footer-title">Newsletter</span>
@@ -46,7 +42,7 @@ export const Footer = () => {
               Receive the latest news from us.
             </span>
           </label>
-          <div className="relative">
+          <div className="relative border-none">
             <input
               type="text"
               placeholder="username@site.com"
@@ -58,7 +54,7 @@ export const Footer = () => {
           </div>
           <div className="mt-4">
             <span className="footer-title">
-              Find us below:
+              Find us below
             </span>
             <div className="grid grid-flow-col mt-3 text-white">
               <a>

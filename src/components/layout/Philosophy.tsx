@@ -2,23 +2,23 @@ import React from "react"
 
 export const Philosophy = () => {
   return (
-    <div className="container pb-5 mx-auto mt-20 mb-12">
-      <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[600px] py-14 lg:gap-20">
+    <div className="container mx-auto mb-0 lg:pb-12 lg:mt-20 lg:mb-12">
+      <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[600px] lg:py-14 lg:gap-20">
         <div className="container top-0 bottom-0 flex flex-col lg:relative">
           <img
-            className=" lg:w-[330px] lg:h-[495px] lg:absolute lg:top-16 "
+            className=" lg:w-[330px] lg:h-[495px] lg:absolute lg:top-16 m-6"
             src={
               "https://patiotime.loftocean.com/wp-content/uploads/2022/03/klara-kulikova-gXmCinze3k8-unsplash-370x555.jpg"
             }
           />
           <img
-            className="object-cover lg:w-[420px] lg:h-[550px] lg:absolute bottom-4 left-28 mb-4"
+            className="object-cover lg:w-[420px] lg:h-[550px] lg:absolute bottom-4 left-28 m-6"
             src={
               "https://patiotime.loftocean.com/wp-content/uploads/2022/03/chef-1-550x687.jpg"
             }
           />
         </div>
-        <div className="flex flex-col items-start">
+        <div className="flex flex-col items-start m-6">
           <h2 className="mb-5 lg:text-xl text-[#DD5903]">
             QUALITY & BALANCE
           </h2>

@@ -2,8 +2,8 @@ import React from "react"
 
 export const Introsection = () => {
   return (
-    <div className="introsection-container grid grid-cols-1 lg:grid-cols-2 gap-20 min-h-[600px]">
-      <div className="flex flex-col items-start">
+    <div className="introsection-container grid grid-cols-1 lg:grid-cols-2 lg:gap-20 min-h-[600px]">
+      <div className="flex flex-col items-start m-6">
         <h2 className="mb-5 lg:text-xl text-[#DD5903] ">
           REFRESH YOUR TASTEBUDS
         </h2>
@@ -16,17 +16,17 @@ export const Introsection = () => {
           make every important aspect of the customer
           experience a little bit better.
         </p>
-        <button className="px-7 py-2 mb-4 text-white  bg-[#DD5903] hover:scale-110 duration-300">
-          Discover more
+        <button className="px-7 py-2 mb-6 text-white  bg-[#DD5903] hover:scale-110 duration-300">
+          DISCOVER MORE
         </button>
         <img
-          className="h-auto mt-auto"
+          className=" lg:h-auto lg:mt-auto"
           src={
             "https://patiotime.loftocean.com/wp-content/uploads/2022/03/davide-cantelli-jpkfc5_d-DI-unsplash-1536x1025.jpg"
           }
         />
       </div>
-      <div className="flex">
+      <div className="flex m-6">
         <img
           src={
             "https://patiotime.loftocean.com/wp-content/uploads/2022/03/img-10.jpg"

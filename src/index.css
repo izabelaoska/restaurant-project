@@ -26,3 +26,7 @@ body {
 .patio-footer {
   font-family: "Cormorant Infant", serif;
 }
+
+.footer-title {
+  @apply font-bold;
+}

@@ -85,11 +85,11 @@ export const Menus = () => {
         <div className="flex justify-center gap-8 px-10 pb-10 ">
           <Link
             to={"/specials"}
-            className="px-5 py-2 text-sm duration-300 border-2 border-black hover:bg-black hover:text-white"
+            className="px-5 py-2 text-xs duration-300 border-2 border-black lg:text-sm hover:bg-black hover:text-white"
           >
             BROWSE MENUS
           </Link>
-          <button className="px-5 py-2 text-sm duration-300 border-2 border-black hover:bg-black hover:text-white">
+          <button className="px-5 py-2 text-xs duration-300 border-2 border-black lg:text-sm hover:bg-black hover:text-white">
             ORDER ONLINE
           </button>
         </div>

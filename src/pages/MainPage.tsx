@@ -18,7 +18,7 @@ export const MainPage = () => {
       />
       <div className="drawer-content">
         <Hero />
-        <section className="py-20 bg-white">
+        <section className="py-12 bg-white">
           <div className="container mx-auto ">
             <Introsection />
           </div>

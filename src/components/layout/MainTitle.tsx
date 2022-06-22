@@ -11,10 +11,10 @@ export const MainTitle = () => {
         </header>
         <div className="lg:border-t lg:w-20"></div>
       </div>
-      <h1 className="text-xl title-center lg:text-6xl md:text-3xl">
+      <h1 className="text-xl title-center lg:text-8xl md:text-3xl">
         Delicious Food & Wonderful Eating Experience
       </h1>
-      <h2 className="mt-10 text-sm md:text-xl lg:text-3xl harmony-title">
+      <h2 className="mt-10 text-sm md:text-xl lg:text-2xl harmony-title">
         We Serve Food, Harmony and Laughter since 1998
       </h2>
       <Link
