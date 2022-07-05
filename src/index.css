@@ -32,3 +32,9 @@ body {
 .footer-title {
   @apply font-bold;
 }
+.fetched-img {
+  float: left;
+  width: 350px;
+  height: 300px;
+  background-size: cover;
+}

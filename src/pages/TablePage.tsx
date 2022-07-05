@@ -19,10 +19,16 @@ export const TablePage = () => {
 
   return (
     <>
-      <div className="m-8">FETCH API EXAMPLE</div>
-      <div className="m-8">
+      <div className="m-8 text-lg text-red-700">
+        FETCH API EXAMPLE
+      </div>
+      <div className="">
         {data.map((dog: string) => (
-          <img src={dog} alt={dog} className="m-5"></img>
+          <img
+            src={dog}
+            alt={dog}
+            className="m-5 fetched-img"
+          ></img>
         ))}
       </div>
       <Link
