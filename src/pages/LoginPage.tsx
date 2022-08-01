@@ -6,7 +6,7 @@ export const LoginPage = () => {
   const [email, setEmail] = useState(
     "tracey.ramos@reqres.in"
   )
-  const [password, setPassword] = useState("kurka")
+  const [password, setPassword] = useState("password")
 
   const handleOnSubmit = async (
     e: React.FormEvent<HTMLFormElement>

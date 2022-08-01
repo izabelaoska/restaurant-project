@@ -18,7 +18,10 @@ export const SpecialMenus = () => {
   }
 
   return (
-    <div>
+    <div className="m-10">
+      <div className="mb-10 text-lg text-red-700">
+        MENU WITH IMAGES FETCH EXAMPLE
+      </div>
       <div>SPECIAL MENUS</div>
       <div>
         {menus.map((item: any) => {
